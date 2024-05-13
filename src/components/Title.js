@@ -1,10 +1,12 @@
-const Title = ()=>{
+const Title = ({
+    storedTitle , storedDes
+})=>{
     return(
 
         <div>
-            <h1 >Salman Alnajdi</h1>
+            <h1 >{storedTitle}</h1>
             <p>
-                welcome to One of the Kuwaiti Small forest!
+                {storedDes}
             </p>
         </div>
     )
